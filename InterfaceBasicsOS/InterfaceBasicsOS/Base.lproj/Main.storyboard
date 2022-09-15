@@ -48,6 +48,7 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="TouchEnter:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="g07-ae-EYn"/>
                                     <action selector="greetButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5kX-dm-Hgu"/>
                                 </connections>
                             </button>

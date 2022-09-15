@@ -19,7 +19,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func greetButtonTouched(_ sender: Any) {
+        greetCompiler.text = "Hello " + userNameINP.text!
     }
+    
     
 }
 
